@@ -1,0 +1,80 @@
+.c-container {
+  justify-content: space-between;
+}
+
+.c-container > div {
+  flex: 1;
+}
+
+.c-rigth > div {
+  width: 100%;
+}
+
+.c-left {
+  gap: 0.5rem;
+}
+
+.contactOptions {
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.contactOptions .row {
+  gap: 1.5rem;
+}
+
+.option {
+  width: 16rem;
+  padding: 1rem;
+  border: 0.8px solid rgba(128, 128, 128, 0.143);
+  border-radius: 5px;
+  gap: 1rem;
+  transition: all 300ms ease-in;
+}
+
+.option .button {
+  width: 100%;
+  background: var(--lightBlue);
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.option > :nth-child(1) {
+  width: 100%;
+  gap: 2rem;
+}
+
+.option .detail .primaryText {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.option:hover{
+    scale: 1.1;
+    box-shadow: var(--shadow);
+}
+
+.option .button:hover{
+    background: var(--blue-gradient);
+    color: white;
+    scale: 0.8;
+}
+
+@media (max-width: 1024px){
+  .c-container{
+    flex-direction: column;
+  }
+  .c-rigth{
+    justify-content: center;
+  }
+  .contactOptions{
+    width: 100%;
+  }
+  .row{
+    flex-direction: column;
+    width: 100%;
+  }
+  .option{
+    width: 100%;
+  }
+}

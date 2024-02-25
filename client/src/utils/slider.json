@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Cuarto prueba 1",
+      "price": "1,000",
+      "detail": "Cerca de CUCEI",
+      "image": "./r1.jpg"
+    },
+    {
+      "name": "Cuarto prueba 2",
+      "price": "2,000",
+      "detail": "Cerca de CUCEA",
+      "image": "./r2.jpg"
+    },
+    {
+      "name": "Cuarto prueba 3",
+      "price": "3,000",
+      "detail": "Cerca de CUCBA",
+      "image": "./r3.png"
+    },
+    {
+      "name": "Cuarto prueba 4",
+      "price": "4,000",
+      "detail": "Cerca de CUCSH",
+      "image": "./r1.jpg"
+    },
+    {
+      "name": "Cuarto prueba 5",
+      "price": "5,000",
+      "detail": "Cerca de CUCS",
+      "image": "./r2.jpg"
+    },
+    {
+      "name": "Cuarto prueba 6",
+      "price": "6,000",
+      "detail": "Cerca de CUAD",
+      "image": "./r3.png"
+    }
+  ]
+  
